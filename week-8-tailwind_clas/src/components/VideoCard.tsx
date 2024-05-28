@@ -1,6 +1,6 @@
 export function VideoCard(props: any) {
   return (
-    <div>
+    <div className="p-1">
       <img src={props.image} className="rounded-2xl" />
       <div className="grid grid-cols-12">
         <div className="col-span-2 pt-2">
